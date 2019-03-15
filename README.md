@@ -24,3 +24,4 @@ Spp can appear in more than one clade
 Spp must be spelled exactly as in tree file.
 
 Tree file can have any name but should be in Newick format.
+Can process multiple trees with *.treesuffix
