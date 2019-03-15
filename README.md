@@ -22,3 +22,5 @@ clade_name2 TAB spp3 spp4 spp10
 TAB between name of the clade and first spp.  Space between each spp.\
 Spp can appear in more than one clade
 Spp must be spelled exactly as in tree file.
+
+Tree file can have any name but should be in Newick format.
