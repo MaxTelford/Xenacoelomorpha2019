@@ -10,12 +10,12 @@ Data from Philippe et al 2019.  TITLE. REFERENCE.
   Nexus file with character sets definining positions of each individual alignment.
   "all_genes_ordered_by_monophyly.nexus.zip"
 3. Trees.
-  these are titled with following format
-    Dataset(Philippe|ROUSE|CANNON\
-    -Genes used (ALL|BEST|WORST\
-    -Species used(ALL|NOACOEL\
-    -Model used (CATGTR|GTR|LG4X|DAYHOFF\
-    -statistic(JP=Jackknife|BP=Bootstrap\
+  these are titled with following format\
+    Dataset(Philippe|ROUSE|CANNON)\
+    -Genes used (ALL|BEST|WORST)\
+    -Species used(ALL|NOACOEL)\
+    -Model used (CATGTR|GTR|LG4X|DAYHOFF)\
+    -Statistic(JP=Jackknife|BP=Bootstrap)\
 4. "monophyly.pl"  Perl script to measure support for user defined monophyletic groups.\
   usage: "monophyly.pl \<file with clades defined\> \<treefile(s) file1.tre or \*.tre\>"\
   requires https://metacpan.org/pod/Bio::TreeIO; https://metacpan.org/pod/Bio::Tree::Node;
