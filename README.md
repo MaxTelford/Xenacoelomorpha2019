@@ -10,4 +10,6 @@ Data from Philippe et al 2019.  TITLE. REFERENCE.
   Nexus file with character sets definining positions of each individual alignment.
   "all_genes_ordered_by_monophyly.nexus.zip"
 3. Trees.
-4. Monophyly.pl  Perl script to measure support for user defined monophyletic groups.
+4. monophyly.pl  Perl script to measure support for user defined monophyletic groups.
+  usage: "monophyly.pl <file with clades defined> <treefile(s) e.g. \*.tre>"
+
