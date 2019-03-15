@@ -17,6 +17,7 @@ Data from Philippe et al 2019.  TITLE. REFERENCE.
 Clades file has format as follows
 
 clade_name1 TAB spp1 spp2 spp3
+
 clade_name2 TAB spp3 spp4 spp10
 
 TAB between name of the clade and first spp.  Space between each spp.
