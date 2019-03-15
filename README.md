@@ -19,6 +19,6 @@ Clades file has format as follows
 clade_name1 TAB spp1 spp2 spp3\
 clade_name2 TAB spp3 spp4 spp10
 
-TAB between name of the clade and first spp.  Space between each spp.
-spp can appear in more than one clade
-spp must be spelled exactly as in tree file.
+TAB between name of the clade and first spp.  Space between each spp.\
+Spp can appear in more than one clade
+Spp must be spelled exactly as in tree file.
