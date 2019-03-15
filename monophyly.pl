@@ -66,7 +66,19 @@ my $proportion;
 #process the file that tells you which are supposed monophyletic groups
 ########################################################################################################################################
 
-print "usage: monophyly.pl <file with clades defined> <treefile(s) e.g. \\*.tre>\n\n";
+print "usage: monophyly.pl <file with clades defined> <treefile(s) e.g. \\*.tre>\n
+clades file has format as follows
+
+clade_name1 TAB spp1 spp2 spp3
+clade_name2 TAB spp3 spp4 spp10
+
+TAB between name of the clade and first spp.  Space between each spp.
+Spp can appear in more than one clade
+spp must be spelled exactly as in tree file.
+
+treefile should be newick format
+";
+
 
 my $ingroups = shift;
 chomp $ingroups;
